@@ -1,9 +1,9 @@
 <Type Name="AdaptiveSingularSpectrumSequenceModeler+GrowthRatio" FullName="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler+GrowthRatio">
-  <TypeSignature Language="C#" Value="public struct AdaptiveSingularSpectrumSequenceModeler.GrowthRatio" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-  <TypeSignature Language="ILAsm" Value=".class nested public sequential ansi sealed beforefieldinit AdaptiveSingularSpectrumSequenceModeler/GrowthRatio extends System.ValueType" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-  <TypeSignature Language="DocId" Value="T:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-  <TypeSignature Language="VB.NET" Value="Public Structure AdaptiveSingularSpectrumSequenceModeler.GrowthRatio" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-  <TypeSignature Language="F#" Value="type AdaptiveSingularSpectrumSequenceModeler.GrowthRatio = struct" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
+  <TypeSignature Language="C#" Value="public struct AdaptiveSingularSpectrumSequenceModeler.GrowthRatio" />
+  <TypeSignature Language="ILAsm" Value=".class nested public sequential ansi sealed beforefieldinit AdaptiveSingularSpectrumSequenceModeler/GrowthRatio extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio" />
+  <TypeSignature Language="VB.NET" Value="Public Structure AdaptiveSingularSpectrumSequenceModeler.GrowthRatio" />
+  <TypeSignature Language="F#" Value="type AdaptiveSingularSpectrumSequenceModeler.GrowthRatio = struct" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ML.TimeSeries</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,19 +20,19 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public GrowthRatio (int timeSpan = 1, double growth = ∞);" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 timeSpan, float64 growth) cil managed" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.#ctor(System.Int32,System.Double)" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional timeSpan As Integer = 1, Optional growth As Double = ∞)" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="F#" Value="new Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio : int * double -&gt; Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio" Usage="new Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio (timeSpan, growth)" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
+      <MemberSignature Language="C#" Value="public GrowthRatio (int timeSpan = 1, double growth = ∞);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 timeSpan, float64 growth) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.#ctor(System.Int32,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional timeSpan As Integer = 1, Optional growth As Double = ∞)" />
+      <MemberSignature Language="F#" Value="new Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio : int * double -&gt; Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio" Usage="new Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio (timeSpan, growth)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ML.TimeSeries</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="timeSpan" Type="System.Int32" Index="0" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-        <Parameter Name="growth" Type="System.Double" Index="1" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
+        <Parameter Name="timeSpan" Type="System.Int32" />
+        <Parameter Name="growth" Type="System.Double" />
       </Parameters>
       <Docs>
         <param name="timeSpan">To be added.</param>
@@ -42,11 +42,11 @@
       </Docs>
     </Member>
     <Member MemberName="Growth">
-      <MemberSignature Language="C#" Value="public double Growth { get; set; }" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="ILAsm" Value=".property instance float64 Growth" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.Growth" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="VB.NET" Value="Public Property Growth As Double" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="F#" Value="member this.Growth : double with get, set" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.Growth" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
+      <MemberSignature Language="C#" Value="public double Growth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Growth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.Growth" />
+      <MemberSignature Language="VB.NET" Value="Public Property Growth As Double" />
+      <MemberSignature Language="F#" Value="member this.Growth : double with get, set" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.Growth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ML.TimeSeries</AssemblyName>
@@ -64,11 +64,11 @@
       </Docs>
     </Member>
     <Member MemberName="Ratio">
-      <MemberSignature Language="C#" Value="public double Ratio { get; }" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="ILAsm" Value=".property instance float64 Ratio" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.Ratio" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Ratio As Double" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="F#" Value="member this.Ratio : double" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.Ratio" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
+      <MemberSignature Language="C#" Value="public double Ratio { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Ratio" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.Ratio" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Ratio As Double" />
+      <MemberSignature Language="F#" Value="member this.Ratio : double" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.Ratio" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ML.TimeSeries</AssemblyName>
@@ -84,11 +84,11 @@
       </Docs>
     </Member>
     <Member MemberName="TimeSpan">
-      <MemberSignature Language="C#" Value="public int TimeSpan { get; set; }" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="ILAsm" Value=".property instance int32 TimeSpan" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.TimeSpan" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="VB.NET" Value="Public Property TimeSpan As Integer" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="F#" Value="member this.TimeSpan : int with get, set" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.TimeSpan" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
+      <MemberSignature Language="C#" Value="public int TimeSpan { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TimeSpan" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.TimeSpan" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeSpan As Integer" />
+      <MemberSignature Language="F#" Value="member this.TimeSpan : int with get, set" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.GrowthRatio.TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ML.TimeSeries</AssemblyName>

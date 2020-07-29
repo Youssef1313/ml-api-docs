@@ -255,6 +255,36 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GenerateFloatLabelFloatFeatureVectorUlongGroupIdSamples">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.ML.SamplesUtils.DatasetUtils.FloatLabelFloatFeatureVectorUlongGroupIdSample&gt; GenerateFloatLabelFloatFeatureVectorUlongGroupIdSamples (int exampleCount, double naRate = 0, ulong minGroupId = 1, ulong maxGroupId = 5);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.ML.SamplesUtils.DatasetUtils/FloatLabelFloatFeatureVectorUlongGroupIdSample&gt; GenerateFloatLabelFloatFeatureVectorUlongGroupIdSamples(int32 exampleCount, float64 naRate, unsigned int64 minGroupId, unsigned int64 maxGroupId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ML.SamplesUtils.DatasetUtils.GenerateFloatLabelFloatFeatureVectorUlongGroupIdSamples(System.Int32,System.Double,System.UInt64,System.UInt64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateFloatLabelFloatFeatureVectorUlongGroupIdSamples (exampleCount As Integer, Optional naRate As Double = 0, Optional minGroupId As ULong = 1, Optional maxGroupId As ULong = 5) As IEnumerable(Of DatasetUtils.FloatLabelFloatFeatureVectorUlongGroupIdSample)" />
+      <MemberSignature Language="F#" Value="static member GenerateFloatLabelFloatFeatureVectorUlongGroupIdSamples : int * double * uint64 * uint64 -&gt; seq&lt;Microsoft.ML.SamplesUtils.DatasetUtils.FloatLabelFloatFeatureVectorUlongGroupIdSample&gt;" Usage="Microsoft.ML.SamplesUtils.DatasetUtils.GenerateFloatLabelFloatFeatureVectorUlongGroupIdSamples (exampleCount, naRate, minGroupId, maxGroupId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ML.SamplesUtils</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.ML.SamplesUtils.DatasetUtils+FloatLabelFloatFeatureVectorUlongGroupIdSample&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="exampleCount" Type="System.Int32" Index="0" FrameworkAlternate="ml-dotnet-preview" />
+        <Parameter Name="naRate" Type="System.Double" Index="1" FrameworkAlternate="ml-dotnet-preview" />
+        <Parameter Name="minGroupId" Type="System.UInt64" Index="2" FrameworkAlternate="ml-dotnet-preview" />
+        <Parameter Name="maxGroupId" Type="System.UInt64" Index="3" FrameworkAlternate="ml-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="exampleCount">To be added.</param>
+        <param name="naRate">To be added.</param>
+        <param name="minGroupId">To be added.</param>
+        <param name="maxGroupId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GenerateRandomMulticlassClassificationExamples">
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;Microsoft.ML.SamplesUtils.DatasetUtils.MulticlassClassificationExample&gt; GenerateRandomMulticlassClassificationExamples (int count);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;class Microsoft.ML.SamplesUtils.DatasetUtils/MulticlassClassificationExample&gt; GenerateRandomMulticlassClassificationExamples(int32 count) cil managed" />
@@ -477,7 +507,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="ml-dotnet-preview-0.12.0">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.ML.SamplesUtils.DatasetUtils/&lt;GetSampleTemperatureData&gt;d__21))</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.ML.SamplesUtils.DatasetUtils/&lt;GetSampleTemperatureData&gt;d__21))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.ML.SamplesUtils.DatasetUtils/&lt;GetSampleTemperatureData&gt;d__21))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -666,6 +697,35 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadRawAdultDataset">
+      <MemberSignature Language="C#" Value="public static Microsoft.ML.IDataView LoadRawAdultDataset (Microsoft.ML.MLContext mlContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.ML.IDataView LoadRawAdultDataset(class Microsoft.ML.MLContext mlContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ML.SamplesUtils.DatasetUtils.LoadRawAdultDataset(Microsoft.ML.MLContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadRawAdultDataset (mlContext As MLContext) As IDataView" />
+      <MemberSignature Language="F#" Value="static member LoadRawAdultDataset : Microsoft.ML.MLContext -&gt; Microsoft.ML.IDataView" Usage="Microsoft.ML.SamplesUtils.DatasetUtils.LoadRawAdultDataset mlContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ML.SamplesUtils</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ML.IDataView</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mlContext" Type="Microsoft.ML.MLContext" Index="0" FrameworkAlternate="ml-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="mlContext">
+          <see cref="T:Microsoft.ML.MLContext" /> used for data loading and processing.</param>
+        <summary>
+            Returns the path to the Adult UCI dataset and featurizes it to be suitable for classification tasks.
+            </summary>
+        <returns>Raw dataset.</returns>
+        <remarks>
+            For more details about this dataset, please see https://archive.ics.uci.edu/ml/datasets/adult.
+            </remarks>
       </Docs>
     </Member>
   </Members>

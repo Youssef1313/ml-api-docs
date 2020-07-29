@@ -19,10 +19,10 @@
     <Interface>
       <InterfaceName>Microsoft.ML.IEstimator&lt;Microsoft.ML.Trainers.Recommender.MatrixFactorizationPredictionTransformer&gt;</InterfaceName>
     </Interface>
-    <Interface>
+    <Interface FrameworkAlternate="ml-dotnet-preview;ml-dotnet-preview-0.16.0">
       <InterfaceName>Microsoft.ML.IEstimator&lt;TTransformer&gt;</InterfaceName>
     </Interface>
-    <Interface>
+    <Interface FrameworkAlternate="ml-dotnet-preview;ml-dotnet-preview-0.16.0">
       <InterfaceName>Microsoft.ML.Trainers.ITrainerEstimator&lt;Microsoft.ML.Trainers.Recommender.MatrixFactorizationPredictionTransformer,Microsoft.ML.Trainers.Recommender.MatrixFactorizationModelParameters&gt;</InterfaceName>
     </Interface>
   </Interfaces>

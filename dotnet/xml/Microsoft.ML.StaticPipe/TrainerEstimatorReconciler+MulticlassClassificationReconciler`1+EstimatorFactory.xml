@@ -8,9 +8,6 @@
     <AssemblyName>Microsoft.ML.StaticPipe</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
-  <TypeParameters>
-    <TypeParameter Name="TVal" />
-  </TypeParameters>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
   </Base>

@@ -32,7 +32,7 @@
       <MemberSignature Language="C#" Value="public string Get (Microsoft.ML.StaticPipe.PipelineColumn key, Microsoft.ML.Runtime.IExceptionContext ectx = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string Get(class Microsoft.ML.StaticPipe.PipelineColumn key, class Microsoft.ML.Runtime.IExceptionContext ectx) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ML.StaticPipe.StaticPipeUtils.IndexHelper`1.Get(Microsoft.ML.StaticPipe.PipelineColumn,Microsoft.ML.Runtime.IExceptionContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Function Get (key As PipelineColumn, Optional ectx As IExceptionContext = null) As String" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get (key As PipelineColumn, Optional ectx As IExceptionContext = Nothing) As String" />
       <MemberSignature Language="F#" Value="member this.Get : Microsoft.ML.StaticPipe.PipelineColumn * Microsoft.ML.Runtime.IExceptionContext -&gt; string" Usage="indexHelper.Get (key, ectx)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>

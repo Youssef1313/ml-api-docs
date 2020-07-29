@@ -78,8 +78,9 @@
       <TypeParameters>
         <TypeParameter Name="TNewOutShape">
           <Attributes>
-            <Attribute FrameworkAlternate="ml-dotnet-preview-0.12.0">
-              <AttributeName>Microsoft.ML.StaticPipe.IsShape</AttributeName>
+            <Attribute>
+              <AttributeName Language="C#">[Microsoft.ML.StaticPipe.IsShape]</AttributeName>
+              <AttributeName Language="F#">[&lt;Microsoft.ML.StaticPipe.IsShape&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </TypeParameter>

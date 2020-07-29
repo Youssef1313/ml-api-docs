@@ -1,9 +1,9 @@
 <Type Name="AdaptiveSingularSpectrumSequenceModeler+RankSelectionMethod" FullName="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler+RankSelectionMethod">
-  <TypeSignature Language="C#" Value="public enum AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed AdaptiveSingularSpectrumSequenceModeler/RankSelectionMethod extends System.Enum" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-  <TypeSignature Language="DocId" Value="T:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-  <TypeSignature Language="VB.NET" Value="Public Enum AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-  <TypeSignature Language="F#" Value="type AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod = " FrameworkAlternate="ml-dotnet-preview-0.13.0" />
+  <TypeSignature Language="C#" Value="public enum AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed AdaptiveSingularSpectrumSequenceModeler/RankSelectionMethod extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod" />
+  <TypeSignature Language="F#" Value="type AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ML.TimeSeries</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -19,11 +19,11 @@
   </Docs>
   <Members>
     <Member MemberName="Exact">
-      <MemberSignature Language="C#" Value="Exact" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler/RankSelectionMethod Exact = int32(1)" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="DocId" Value="F:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Exact" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="VB.NET" Value="Exact" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="F#" Value="Exact = 1" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Exact" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
+      <MemberSignature Language="C#" Value="Exact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler/RankSelectionMethod Exact = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Exact" />
+      <MemberSignature Language="VB.NET" Value="Exact" />
+      <MemberSignature Language="F#" Value="Exact = 1" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Exact" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ML.TimeSeries</AssemblyName>
@@ -38,11 +38,11 @@
       </Docs>
     </Member>
     <Member MemberName="Fast">
-      <MemberSignature Language="C#" Value="Fast" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler/RankSelectionMethod Fast = int32(2)" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="DocId" Value="F:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Fast" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="VB.NET" Value="Fast" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="F#" Value="Fast = 2" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Fast" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
+      <MemberSignature Language="C#" Value="Fast" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler/RankSelectionMethod Fast = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Fast" />
+      <MemberSignature Language="VB.NET" Value="Fast" />
+      <MemberSignature Language="F#" Value="Fast = 2" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Fast" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ML.TimeSeries</AssemblyName>
@@ -57,11 +57,11 @@
       </Docs>
     </Member>
     <Member MemberName="Fixed">
-      <MemberSignature Language="C#" Value="Fixed" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler/RankSelectionMethod Fixed = int32(0)" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="DocId" Value="F:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Fixed" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="VB.NET" Value="Fixed" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
-      <MemberSignature Language="F#" Value="Fixed = 0" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Fixed" FrameworkAlternate="ml-dotnet-preview-0.13.0" />
+      <MemberSignature Language="C#" Value="Fixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler/RankSelectionMethod Fixed = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Fixed" />
+      <MemberSignature Language="VB.NET" Value="Fixed" />
+      <MemberSignature Language="F#" Value="Fixed = 0" Usage="Microsoft.ML.Transforms.TimeSeries.AdaptiveSingularSpectrumSequenceModeler.RankSelectionMethod.Fixed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ML.TimeSeries</AssemblyName>

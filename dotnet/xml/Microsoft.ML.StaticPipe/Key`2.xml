@@ -47,7 +47,8 @@
         <Parameter Name="dependencies" Type="Microsoft.ML.StaticPipe.PipelineColumn[]">
           <Attributes>
             <Attribute FrameworkAlternate="ml-dotnet-preview-0.12.0">
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>

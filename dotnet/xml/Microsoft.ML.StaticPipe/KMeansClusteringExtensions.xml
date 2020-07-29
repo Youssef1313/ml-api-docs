@@ -23,7 +23,7 @@
       <MemberSignature Language="C#" Value="public static (Microsoft.ML.StaticPipe.Vector&lt;float&gt;,Microsoft.ML.StaticPipe.Key&lt;uint&gt;) KMeans (this Microsoft.ML.ClusteringCatalog.ClusteringTrainers catalog, Microsoft.ML.StaticPipe.Vector&lt;float&gt; features, Microsoft.ML.StaticPipe.Scalar&lt;float&gt; weights, Microsoft.ML.Trainers.KMeansTrainer.Options options, Action&lt;Microsoft.ML.Trainers.KMeansModelParameters&gt; onFit = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ValueTuple`2&lt;class Microsoft.ML.StaticPipe.Vector`1&lt;float32&gt;, class Microsoft.ML.StaticPipe.Key`1&lt;unsigned int32&gt;&gt; KMeans(class Microsoft.ML.ClusteringCatalog/ClusteringTrainers catalog, class Microsoft.ML.StaticPipe.Vector`1&lt;float32&gt; features, class Microsoft.ML.StaticPipe.Scalar`1&lt;float32&gt; weights, class Microsoft.ML.Trainers.KMeansTrainer/Options options, class System.Action`1&lt;class Microsoft.ML.Trainers.KMeansModelParameters&gt; onFit) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ML.StaticPipe.KMeansClusteringExtensions.KMeans(Microsoft.ML.ClusteringCatalog.ClusteringTrainers,Microsoft.ML.StaticPipe.Vector{System.Single},Microsoft.ML.StaticPipe.Scalar{System.Single},Microsoft.ML.Trainers.KMeansTrainer.Options,System.Action{Microsoft.ML.Trainers.KMeansModelParameters})" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function KMeans (catalog As ClusteringCatalog.ClusteringTrainers, features As Vector(Of Single), weights As Scalar(Of Single), options As KMeansTrainer.Options, Optional onFit As Action(Of KMeansModelParameters) = null) As ValueTuple(Of Vector(Of Single), Key(Of UInteger))" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function KMeans (catalog As ClusteringCatalog.ClusteringTrainers, features As Vector(Of Single), weights As Scalar(Of Single), options As KMeansTrainer.Options, Optional onFit As Action(Of KMeansModelParameters) = Nothing) As ValueTuple(Of Vector(Of Single), Key(Of UInteger))" />
       <MemberSignature Language="F#" Value="static member KMeans : Microsoft.ML.ClusteringCatalog.ClusteringTrainers * Microsoft.ML.StaticPipe.Vector&lt;single&gt; * Microsoft.ML.StaticPipe.Scalar&lt;single&gt; * Microsoft.ML.Trainers.KMeansTrainer.Options * Action&lt;Microsoft.ML.Trainers.KMeansModelParameters&gt; -&gt; ValueTuple&lt;Microsoft.ML.StaticPipe.Vector&lt;single&gt;, Microsoft.ML.StaticPipe.Key&lt;uint32&gt;&gt;" Usage="Microsoft.ML.StaticPipe.KMeansClusteringExtensions.KMeans (catalog, features, weights, options, onFit)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -34,7 +34,8 @@
         <ReturnType>System.ValueTuple&lt;Microsoft.ML.StaticPipe.Vector&lt;System.Single&gt;,Microsoft.ML.StaticPipe.Key&lt;System.UInt32&gt;&gt;</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="ml-dotnet-preview-0.12.0">
-            <AttributeName>System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "score", "predictedLabel" })</AttributeName>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "score", "predictedLabel" })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "score", "predictedLabel" })&gt;]</AttributeName>
           </Attribute>
         </Attributes>
       </ReturnValue>
@@ -66,7 +67,7 @@
       <MemberSignature Language="C#" Value="public static (Microsoft.ML.StaticPipe.Vector&lt;float&gt;,Microsoft.ML.StaticPipe.Key&lt;uint&gt;) KMeans (this Microsoft.ML.ClusteringCatalog.ClusteringTrainers catalog, Microsoft.ML.StaticPipe.Vector&lt;float&gt; features, Microsoft.ML.StaticPipe.Scalar&lt;float&gt; weights = default, int clustersCount = 5, Action&lt;Microsoft.ML.Trainers.KMeansModelParameters&gt; onFit = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ValueTuple`2&lt;class Microsoft.ML.StaticPipe.Vector`1&lt;float32&gt;, class Microsoft.ML.StaticPipe.Key`1&lt;unsigned int32&gt;&gt; KMeans(class Microsoft.ML.ClusteringCatalog/ClusteringTrainers catalog, class Microsoft.ML.StaticPipe.Vector`1&lt;float32&gt; features, class Microsoft.ML.StaticPipe.Scalar`1&lt;float32&gt; weights, int32 clustersCount, class System.Action`1&lt;class Microsoft.ML.Trainers.KMeansModelParameters&gt; onFit) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ML.StaticPipe.KMeansClusteringExtensions.KMeans(Microsoft.ML.ClusteringCatalog.ClusteringTrainers,Microsoft.ML.StaticPipe.Vector{System.Single},Microsoft.ML.StaticPipe.Scalar{System.Single},System.Int32,System.Action{Microsoft.ML.Trainers.KMeansModelParameters})" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function KMeans (catalog As ClusteringCatalog.ClusteringTrainers, features As Vector(Of Single), Optional weights As Scalar(Of Single) = null, Optional clustersCount As Integer = 5, Optional onFit As Action(Of KMeansModelParameters) = null) As ValueTuple(Of Vector(Of Single), Key(Of UInteger))" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function KMeans (catalog As ClusteringCatalog.ClusteringTrainers, features As Vector(Of Single), Optional weights As Scalar(Of Single) = Nothing, Optional clustersCount As Integer = 5, Optional onFit As Action(Of KMeansModelParameters) = Nothing) As ValueTuple(Of Vector(Of Single), Key(Of UInteger))" />
       <MemberSignature Language="F#" Value="static member KMeans : Microsoft.ML.ClusteringCatalog.ClusteringTrainers * Microsoft.ML.StaticPipe.Vector&lt;single&gt; * Microsoft.ML.StaticPipe.Scalar&lt;single&gt; * int * Action&lt;Microsoft.ML.Trainers.KMeansModelParameters&gt; -&gt; ValueTuple&lt;Microsoft.ML.StaticPipe.Vector&lt;single&gt;, Microsoft.ML.StaticPipe.Key&lt;uint32&gt;&gt;" Usage="Microsoft.ML.StaticPipe.KMeansClusteringExtensions.KMeans (catalog, features, weights, clustersCount, onFit)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -77,7 +78,8 @@
         <ReturnType>System.ValueTuple&lt;Microsoft.ML.StaticPipe.Vector&lt;System.Single&gt;,Microsoft.ML.StaticPipe.Key&lt;System.UInt32&gt;&gt;</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="ml-dotnet-preview-0.12.0">
-            <AttributeName>System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "score", "predictedLabel" })</AttributeName>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "score", "predictedLabel" })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "score", "predictedLabel" })&gt;]</AttributeName>
           </Attribute>
         </Attributes>
       </ReturnValue>

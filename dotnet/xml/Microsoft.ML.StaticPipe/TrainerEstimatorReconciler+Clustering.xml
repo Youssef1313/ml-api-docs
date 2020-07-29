@@ -60,7 +60,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "score", "predictedLabel" })</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "score", "predictedLabel" })]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "score", "predictedLabel" })&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
